@@ -1,5 +1,7 @@
 # Rapid Prototyping with Kiro CLI
 
+![From Idea to App with Kiro CLI](assets/from-idea-to-app.jpg)
+
 Turn your idea into a deployed app with the [Kiro CLI](https://kiro.dev).
 
 This repository is intended to be cloned and used right away with your ideas.
@@ -148,3 +150,9 @@ The agent JSON files in `agents/` are fully editable. Common tweaks:
 ## Credits
 
 This approach is based on a session by [Ross Myers](https://www.linkedin.com/in/ross-meyers/), Sr. Solutions Architect at AWS, presented at AWS Summit Washington, DC 2026, which seems to be inspired by [d-smith/piggy-bank-app](https://github.com/d-smith/piggy-bank-app), a savings goal tracking app.
+
+## Help
+
+I'd love to help if I can.
+
+Reach out to me on [LinkedIn](https://www.linkedin.com/in/chase-grainger/) if that's you!
