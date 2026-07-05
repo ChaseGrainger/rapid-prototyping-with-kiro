@@ -26,11 +26,11 @@ The agents follow a simplified **AI Development Lifecycle (AI-DLC)** pattern:
 
 | # | Agent | What it does |
 |---|-------|--------------|
-| 1 | Product Owner | Asks clarifying questions, writes precise user stories with testable acceptance criteria |
-| 2 | Domain Architect | Models business logic, aggregates, commands, events, and rules |
-| 3 | Technical Architect | Maps domain models to AWS services, defines API contracts and data schemas |
-| 4 | Full Stack Engineer | Implements the app end-to-end using vertical slice methodology |
-| 5 | Deployment Engineer | Deploys infrastructure, configures endpoints, validates everything works |
+| 1 | 🤖 Product Owner | Asks clarifying questions, writes precise user stories with testable acceptance criteria |
+| 2 | 🤖 Domain Architect | Models business logic, aggregates, commands, events, and rules |
+| 3 | 🤖 Technical Architect | Maps domain models to AWS services, defines API contracts and data schemas |
+| 4 | 🤖 Full Stack Engineer | Implements the app end-to-end using vertical slice methodology |
+| 5 | 🤖 Deployment Engineer | Deploys infrastructure, configures endpoints, validates everything works |
 
 ## Getting Started
 
@@ -72,7 +72,7 @@ without driving around or guessing at schedules.
 
 Open your terminal in the cloned repo and run each agent sequentially. Each agent reads the output of the previous one.
 
-**Agent 1: Product Owner** — produces user stories
+**🤖 Agent 1: Product Owner** - produces user stories
 
 ```bash
 kiro-cli chat --agent product-owner
@@ -80,7 +80,7 @@ kiro-cli chat --agent product-owner
 
 > What to say: `Review intent.md and begin the clarification process.`
 
-**Agent 2: Domain Architect** — produces domain models
+**🤖 Agent 2: Domain Architect** - produces domain models
 
 ```bash
 kiro-cli chat --agent domain-architect-agent
@@ -88,7 +88,7 @@ kiro-cli chat --agent domain-architect-agent
 
 > What to say: `Review the user stories in ai-dlc/{feature-name}/product-owner/user-stories.md and begin domain modeling.`
 
-**Agent 3: Technical Architect** — produces technical specs
+**🤖 Agent 3: Technical Architect** - produces technical specs
 
 ```bash
 kiro-cli chat --agent technical-architect-agent
@@ -96,7 +96,7 @@ kiro-cli chat --agent technical-architect-agent
 
 > What to say: `Review the domain stories and user stories, then begin technical architecture design.`
 
-**Agent 4: Full Stack Engineer** — produces working code
+**🤖 Agent 4: Full Stack Engineer** - produces working code
 
 ```bash
 kiro-cli chat --agent full-stack-engineer-agent
@@ -104,7 +104,7 @@ kiro-cli chat --agent full-stack-engineer-agent
 
 > What to say: `Review all artifacts in ai-dlc/{feature-name}/ and begin implementation.`
 
-**Agent 5: Deployment Engineer** — deploys to AWS
+**🤖 Agent 5: Deployment Engineer** - deploys to AWS
 
 ```bash
 kiro-cli chat --agent deployment-engineer-agent
